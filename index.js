@@ -19,7 +19,14 @@ async function getTemplateHtml() {
 
 async function generatePdf() {
 
-    let data = {};
+    let data = {
+        company:'Prudential Kenya',
+        location:'Nairobi',
+        address:'Vienna Court, Ground floor',
+        otherCompany:'Madavi Agency',
+        name:'Marcos Maliki',
+        email:'Marcoseznavil@gmail.com',
+    };
 
     getTemplateHtml()
         .then(async (res) => {

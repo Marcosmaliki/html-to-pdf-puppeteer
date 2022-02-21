@@ -9,7 +9,7 @@
   "author": "hardeeksharma",
   "license": "ISC",
   "dependencies": {
-    "handlebars": "^4.5.3",
-    "puppeteer": "^2.0.0"
+    "handlebars": "^4.7.7",
+    "puppeteer": "^13.3.2"
   }
 }
